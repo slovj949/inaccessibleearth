@@ -10,8 +10,11 @@ font-size: 20px;
 font-family: arial;
 font-weight: lighter;
 color: white;
-word-break: break-word;}
+word-break: break-word;
+margin-top: -5px;
+margin-bottom: 5px;}
 
+p {margin-bottom: -5px;}
 article a
 {color: white;}
 
@@ -32,7 +35,8 @@ margin-bottom: 5px;}
 h2
 {line-height: 1;
 word-break: break-word;
-font-weight: lighter;}
+font-weight: lighter;
+margin-top: 25px;}
 
 h2 a
 {text-decoration: none;}
