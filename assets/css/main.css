@@ -57,3 +57,42 @@ h3 a
 
 h3 a:hover::after
 {content:'!';}
+
+@media only screen and (max-width: 414px)
+{
+article a:hover
+{font-family: "Arial Narrow", Arial, sans-serif;
+text-decoration: underline;
+text-transform: uppercase;
+font-weight: bold;}
+h2
+{font-size: 20px;
+line-height: 1.3;}
+h2 a
+{text-decoration: none;}
+h2 a:hover
+{font-family: arial;
+background-color: #3300FF;
+color: #CD0033;
+text-decoration: none;
+text-transform: lowercase;
+font-weight: bold;}}
+
+@media only screen and (min-width: 507px)
+{article a:hover
+{font-family: "Arial Narrow", Arial, sans-serif;
+text-decoration: underline;
+text-transform: uppercase;
+font-weight: bold;}
+h2
+{font-size: 20px;
+line-height: 1.3;}
+h2 a
+{text-decoration: none;}
+h2 a:hover
+{font-family: arial;
+background-color: #3300FF;
+color: #CD0033;
+text-decoration: none;
+text-transform: lowercase;
+font-weight: bold;}}
