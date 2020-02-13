@@ -61,15 +61,15 @@ h3 a:hover::after
 @media only screen and (max-width: 414px)
 {article
 {font-size: 20px;}
-article a:hover, p, , h3:hover
+article a:hover, p:hover, , h3:hover
 {font-family: "Arial Narrow", Arial, sans-serif;
 text-decoration: underline;
 text-transform: uppercase;
 font-weight: bold;}
-h2
+h3
 {font-size: 20px;
 line-height: 1.3;}
-h2 a
+h3 a
 {text-decoration: none;}
 h2 a:hover
 {font-family: arial;
@@ -79,10 +79,11 @@ text-decoration: none;
 text-transform: lowercase;
 font-weight: bold;}}
 
+
 @media only screen and (min-width: 507px)
 {article
 {font-size: 20px;}
-article a:hover, p, , h3:hover
+article a:hover, p:hover, , h3:hover
 {font-family: "Arial Narrow", Arial, sans-serif;
 text-decoration: underline;
 text-transform: uppercase;
