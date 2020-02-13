@@ -57,9 +57,12 @@ h3 a
 
 h3 a:hover::after
 {content:'!';}
+
 @media only screen and (max-width: 414px)
 {article
 {font-size: 20px;}
+article a
+{color: white;}
 article a:hover
 {font-family: "Arial Narrow", Arial, sans-serif;
 text-decoration: underline;
@@ -81,6 +84,8 @@ font-weight: bold;}}
 @media only screen and (min-width: 507px)
 {article
 {font-size: 20px;}
+article a
+{color: white;}
 article a:hover
 {font-family: "Arial Narrow", Arial, sans-serif;
 text-decoration: underline;
