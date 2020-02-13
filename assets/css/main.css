@@ -22,30 +22,31 @@ text-transform: uppercase;
 font-weight: bold;}
 
 h1
-{line-height: 1;
-word-break: break-word;}
-
-h1 a
-{text-decoration: none;}
+{font-family: "Arial Narrow", Arial, sans-serif;
+line-height: 1;}
 
 h2
-{font-size: 30px;
-line-height: 1;
-word-break: break-all;
+{line-height: 1;
+word-break: break-word;
 font-weight: lighter;}
 
 h2 a
 {text-decoration: none;}
 
-h2 a:hover
-{font-family: arial;
-background-color: #3300FF;
-color: #CD0033;
-text-decoration: none;
-text-transform: lowercase;
+h2 a:hover::after
+{content:'!';}
+
+h3
+{font-size: 24px;
+line-height: 1;
+word-break: break-word;
 font-weight: bold;}
 
-h2 a:hover::after
+h3 a
+{text-decoration: none;}
+
+
+h3 a:hover::after
 {content:'!';}
 
 @media only screen and (max-width: 414px)
