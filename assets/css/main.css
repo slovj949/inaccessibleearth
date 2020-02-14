@@ -14,7 +14,8 @@ word-break: break-word;
 margin-top: -5px;
 margin-bottom: 5px;}
 
-p {margin-bottom: 0px;}
+p {margin-bottom: 0px;
+font-family: arial;}
 
 article a
 {color: white;}
